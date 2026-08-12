@@ -171,16 +171,16 @@ The **Terra Nova Operations Dashboard** is the digital nerve center of Terra Nov
 ---
 
 ## Tech Stack
-
 | Layer | Technology |
 |---|---|
-| **Frontend** | React / Vite / TypeScript |
-| **UI Framework** | Tailwind CSS |
-| **Dashboard** | Custom analytics components |
-| **Maps** | Interactive mapping for plant & logistics visualization |
-| **Backend** | REST API for real-time data ingestion |
-| **Data Sources** | Plant IoT sensors, GPS trackers, weighbridges, ERP |
-
+| Framework | React + TypeScript (Vite) |
+| Styling | Tailwind CSS + shadcn/ui |
+| Animation | Framer Motion |
+| Icons | Lucide React |
+| Charts | Recharts |
+| Map | Custom SVG (India outline, animated markers/routes) |
+| Backend / DB | Supabase (PostgreSQL) |
+| Data Fetching | TanStack React Query |
 ---
 
 
