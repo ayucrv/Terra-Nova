@@ -205,6 +205,5 @@ The **Terra Nova Operations Dashboard** is the digital nerve center of Terra Nov
 
 
 <p align="center">
-  <strong>🌿 One Ecosystem. Two Fuels. Unlimited Impact. 🌿</strong><br>
   <em>Terra Nova — Powering Tomorrow</em>
 </p>
