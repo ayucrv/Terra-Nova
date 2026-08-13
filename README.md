@@ -80,6 +80,17 @@ The **Terra Nova Operations Dashboard** is the digital nerve center of Terra Nov
 
 - **🏛️ Municipality View**
   - Dedicated dashboard view for Urban Local Bodies (ULBs) to monitor collection coverage, segregation quality, and landfill diversion
+ 
+---
+
+- **AI Features: Daily Operations and Plant Performance Overview**
+  - All four AI features are now live:
+    1. Streamed match explanations with confidence scores
+    2. A floating AI copilot with grounded responses
+    3. An AI-generated daily briefing on the Overview page
+    4. Animated anomaly notifications
+    All AI data is cached per session using React Query
+  - **Notes:** Lovable Cloud's AI gateway does not support Anthropic models, so the built-in Gemini 3.6 Flash is used. No API key is needed, and all AI calls stay server-side. With this TanStack setup, server-side work runs through server functions/server routes instead of edge functions. This is the supported equivalent for this stack.
 
 ---
 
@@ -173,14 +184,16 @@ The **Terra Nova Operations Dashboard** is the digital nerve center of Terra Nov
 ## Tech Stack
 | Layer | Technology |
 |---|---|
-| Framework | React + TypeScript (Vite) |
+| Framework | React + TypeScript (TanStack Start/Router) |
 | Styling | Tailwind CSS + shadcn/ui |
 | Animation | Framer Motion |
 | Icons | Lucide React |
 | Charts | Recharts |
-| Map | Custom SVG (India outline, animated markers/routes) |
-| Backend / DB | Supabase (PostgreSQL) |
+| Map | CCustom SVG (India outline, animated markers/routes) |
+| DB | Supabase (PostgreSQL) |
 | Data Fetching | TanStack React Query |
+| AI | Gemini 3.6 Flash via Lovable Cloud AI Gateway |
+| Server Layer | TanStack server functions / server routes (handles AI calls server-side) |
 ---
 
 
