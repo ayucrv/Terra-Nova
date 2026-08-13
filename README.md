@@ -80,8 +80,6 @@ The **Terra Nova Operations Dashboard** is the digital nerve center of Terra Nov
 
 - **🏛️ Municipality View**
   - Dedicated dashboard view for Urban Local Bodies (ULBs) to monitor collection coverage, segregation quality, and landfill diversion
- 
----
 
 - **AI Features: Daily Operations and Plant Performance Overview**
   - All four AI features are now live:
